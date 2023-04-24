@@ -146,7 +146,7 @@ display: flex;
 
 .grantdetails {
     position: relative;
-    width: 1px;
+    width: 0px;
     left: 60px;
     top: 1px;
     font-size: small;
@@ -214,60 +214,58 @@ display: flex;
     }
     
     .tl {
-  
-      
-      width: 148px;
+      position: relative;
+      width: 110px;
       left: 14px;
-      top: 54px;
+      top: 14px;
       font-size: small;
       
-    }
+  }
   
-    .ap {
-      
-      width: 122px;
-      height: 36px;
-      left: 540px;
+  .ap {
+      position: relative;
+      width: 200px;
+      left: 240px;
       top: 1px;
-  font-size: small;
-    }
-  
-    .grantdetails {
-     
-  width: 99px;
-  height: 36px;
-  left: 400px;
-  top: 1px;
-  font-size: small;
-    }
-  
-    .details{
-
-  width: 70px;
-  height: 35px;
-  left: 414px;
-  top: 20px;
-    background: #00FFA3;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-      cursor: pointer;
-    }
-    .apply {
-      width: 70px;
-      height: 35px;
-      left: 560px;
-      top: 20px;
-    background: #00FFA3;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
+      font-size: small;
+      display: flex;
     align-items: center;
+  }
+  
+  .grantdetails {
+      position: relative;
+      width: 100px;
+      left: 270px;
+      top: 1px;
+      font-size: small;
+      display: flex;
+    align-items: center;
+  }
+  
+  .details{
+      position: relative;
+      left: 174px;
+      top: 30px;
+      background: #00FFA3;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       cursor: pointer;
-    }
+  }
+  .apply {
+      position: relative;
+      left: 54px;
+      top: 29px;
+      background: #00FFA3;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  }
 }
 
 
@@ -277,12 +275,14 @@ display: flex;
     justify-content: center;
     align-items: center;
     }
+
     .box {
     width: 90%;
     height: auto;
     margin-top: 10px;
     left: 0;
     }
+    
     .grantProgram {
       position: relative;
       height: 80px;
@@ -293,55 +293,58 @@ display: flex;
     }
     
     .tl {
-      width: 148px;
+      position: relative;
+      width: 120px;
       left: 14px;
-      top: 54px;
+      top: 14px;
       font-size: small;
       
-    }
+  }
   
-    .ap {
-      width: 122px;
-      height: 36px;
-      left: 740px;
+  .ap {
+      position: relative;
+      width: 200px;
+      left: 420px;
       top: 1px;
-  font-size: small;
-    }
-  
-    .grantdetails {
-  width: 99px;
-  height: 36px;
-  left: 600px;
-  top: 1px;
-  font-size: small;
-    }
-  
-    .details{
-  width: 70px;
-  height: 35px;
-  left: 614px;
-  top: 20px;
-    background: #00FFA3;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
+      font-size: small;
+      display: flex;
     align-items: center;
-      cursor: pointer;
-    }
-    .apply {
-      width: 70px;
-      height: 35px;
-      left: 760px;
-      top: 20px;
-    background: #00FFA3;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
+  }
+  
+  .grantdetails {
+      position: relative;
+      width: 100px;
+      left: 420px;
+      top: 1px;
+      font-size: small;
+      display: flex;
     align-items: center;
+  }
+  
+  .details{
+      position: relative;
+      left: 326px;
+      top: 30px;
+      background: #00FFA3;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       cursor: pointer;
-    }
+  }
+  .apply {
+      position: relative;
+      left: 240px;
+      top: 29px;
+      background: #00FFA3;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  }
 }
 
 .searchContainer {

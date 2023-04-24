@@ -153,24 +153,20 @@ font-size: small;
   }
 
   .details{
-    box-sizing: border-box;
-  position: absolute;
-width: 70px;
-height: 35px;
-left: 110px;
-top: 20px;
+  width: 70px;
+  height: 35px;
+  left: 110px;
+  top: 20px;
   background: #00FFA3;
   border: 1px solid #000000;
   border-radius: 4px;
   display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
     cursor: pointer;
   }
   .apply {
-    box-sizing: border-box;
-    position: absolute;
+  
     width: 70px;
     height: 35px;
     left: 200px;
@@ -179,10 +175,9 @@ top: 20px;
   border: 1px solid #000000;
   border-radius: 4px;
   display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
   }
   
 
@@ -249,8 +244,7 @@ top: 20px;
     }
   
     .details{
-      box-sizing: border-box;
-    position: absolute;
+
   width: 70px;
   height: 35px;
   left: 414px;
@@ -259,14 +253,11 @@ top: 20px;
     border: 1px solid #000000;
     border-radius: 4px;
     display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+  justify-content: center;
+  align-items: center;
       cursor: pointer;
     }
     .apply {
-      box-sizing: border-box;
-      position: absolute;
       width: 70px;
       height: 35px;
       left: 560px;
@@ -275,9 +266,8 @@ top: 20px;
     border: 1px solid #000000;
     border-radius: 4px;
     display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+    justify-content: center;
+    align-items: center;
       cursor: pointer;
     }
 }
@@ -333,8 +323,6 @@ top: 20px;
     }
   
     .details{
-      box-sizing: border-box;
-    position: absolute;
   width: 70px;
   height: 35px;
   left: 614px;
@@ -343,14 +331,11 @@ top: 20px;
     border: 1px solid #000000;
     border-radius: 4px;
     display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+    justify-content: center;
+    align-items: center;
       cursor: pointer;
     }
     .apply {
-      box-sizing: border-box;
-      position: absolute;
       width: 70px;
       height: 35px;
       left: 760px;
@@ -359,9 +344,8 @@ top: 20px;
     border: 1px solid #000000;
     border-radius: 4px;
     display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+    justify-content: center;
+    align-items: center;
       cursor: pointer;
     }
 }

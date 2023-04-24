@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  background-image: url("../public/bg.png");
+  background-image: url("/bg.png");
   background-size: auto;
 }
 

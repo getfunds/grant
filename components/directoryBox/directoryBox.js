@@ -12,13 +12,30 @@ const DirectoryBox = ({ data, onDetailsClick, onApplyClick, backgroundColor }) =
             <thead>
   <tr className="text-sm text-left uppercase" style={{color: "#6a6a6a"}}>
     <td className={styles.tl}>
-      <div className="flex gap-1 items-center">
         <span>Grant Program</span>
-      </div>
-      
     </td>
-    <td className={styles.grantdetails}>Grant Details</td>
+    <tr>
+  <td className={styles.grantdetails}>Grant Details</td>
+  <td>
+    <button
+      className={styles.details}
+      onClick={() => onDetailsClick(item["Grant Program Details-href"])}
+    >
+      Details
+    </button>
+  </td>
+
+
     <td className={styles.ap}>Apply For Grant</td>
+    <td>
+    <button
+            className={styles.apply}
+            onClick={() => onApplyClick(item["Apply For Grant-href"])}
+          >
+            Apply
+          </button>
+    </td>
+    </tr>
   </tr>
 </thead>
           <div className={styles.grantProgram}  >
@@ -26,18 +43,8 @@ const DirectoryBox = ({ data, onDetailsClick, onApplyClick, backgroundColor }) =
           </div>
           <div className={styles.description}>{item["description"]}</div>
 
-          <button
-            className={styles.details}
-            onClick={() => onDetailsClick(item["Grant Program Details-href"])}
-          >
-            Details
-          </button>
-          <button
-            className={styles.apply}
-            onClick={() => onApplyClick(item["Apply For Grant-href"])}
-          >
-            Apply
-          </button>
+          
+          
         </tr>
       ))}
     </div>

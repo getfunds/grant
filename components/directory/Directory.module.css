@@ -125,17 +125,13 @@ display: flex;
   }
   
   .tl {
-
-    position: absolute;
     width: 148px;
     left: 14px;
     top: 54px;
     font-size: small;
-    
   }
 
   .ap {
-    position: absolute;
     width: 122px;
     height: 36px;
     left: 180px;
@@ -144,7 +140,6 @@ font-size: small;
   }
 
   .grantdetails {
-    position: absolute;
 width: 99px;
 height: 36px;
 left: 90px;
@@ -217,7 +212,7 @@ font-size: small;
     
     .tl {
   
-      position: absolute;
+      
       width: 148px;
       left: 14px;
       top: 54px;
@@ -226,7 +221,7 @@ font-size: small;
     }
   
     .ap {
-      position: absolute;
+      
       width: 122px;
       height: 36px;
       left: 540px;
@@ -235,7 +230,7 @@ font-size: small;
     }
   
     .grantdetails {
-      position: absolute;
+     
   width: 99px;
   height: 36px;
   left: 400px;
@@ -295,8 +290,6 @@ font-size: small;
     }
     
     .tl {
-  
-      position: absolute;
       width: 148px;
       left: 14px;
       top: 54px;
@@ -305,7 +298,6 @@ font-size: small;
     }
   
     .ap {
-      position: absolute;
       width: 122px;
       height: 36px;
       left: 740px;
@@ -314,7 +306,6 @@ font-size: small;
     }
   
     .grantdetails {
-      position: absolute;
   width: 99px;
   height: 36px;
   left: 600px;

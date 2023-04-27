@@ -118,7 +118,7 @@ const Directory = () => {
   } else {
     content = (
       <div>
-        <p className={styles.noResults} >There is no matching results with your criteria... Please try again with other keywords</p>
+        <p className={styles.noResults} >There are no matching results with your criteria... Please try again with other keywords</p>
       </div>
     );
   }
